@@ -6,8 +6,10 @@ function HeroSection() {
     <div className={styles.heroBanner}>
       <h1>Marketing made easy</h1>
       <div className={styles.searchBar}>
-        <input type="text" placeholder="Search..."></input>
-        <button>Search</button>
+        <div className={styles.searchBarContainer}>
+          <input type="text"></input>
+          <button>Search</button>
+        </div>
       </div>
     </div>
   );

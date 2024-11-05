@@ -1,35 +1,68 @@
 .heroBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
   width: 100vw;
   height: 50vh;
-  padding: 2rem;
   background-image: url("../../assets/herobanner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 0px;
+  margin-top: 90px;
+}
+
+.heroBanner h1 {
+  width: 100%;
+  text-align: left;
 }
 
 .searchBar {
   display: flex;
+  width: 100%;
   max-width: 600px;
-  margin: 1rem auto;
+  margin-top: 20rem;
+  max-width: 600px;
+  justify-content: center;
+}
+
+.searchBarContainer {
+  display: flex;
+
+  width: 80%;
+  max-width: 600px;
 }
 
 .searchBar input {
+  border: none;
   flex: 1;
-  padding: 0.5rem;
+  padding: 1rem;
+  max-width: 600px;
 }
 
 .searchBar button {
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   background-color: #333;
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
+/* Mobile view styling */
 @media (max-width: 768px) {
-  .heroBanner h1 {
-    font-size: 1.5rem;
+  .searchBarContainer {
+    flex-direction: column; /* Stacks input and button vertically */
+  }
+
+  .searchBar input,
+  .searchBar button {
+    width: 100%; /* Makes each element take the full width */
+    padding: 1rem;
+    box-sizing: border-box;
+    border: none;
+  }
+
+  .searchBar button {
+    margin-top: 0.5rem; /* Adds space between the input and button */
   }
 }
