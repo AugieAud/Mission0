@@ -1,0 +1,35 @@
+.heroBanner {
+  width: 100vw;
+  height: 50vh;
+  padding: 2rem;
+  background-image: url("../../assets/herobanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+}
+
+.searchBar {
+  display: flex;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.searchBar button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .heroBanner h1 {
+    font-size: 1.5rem;
+  }
+}
