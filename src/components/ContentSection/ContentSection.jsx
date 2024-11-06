@@ -13,13 +13,11 @@ function ContentSetion() {
           alt="guy and dog wilderness"
           className={styles.image}
         ></img>
-        <h3>Lorem ipsum</h3>
-        <p>Est Venenatis</p>
+        <h3>Events & Training</h3>
       </div>
       <div className={styles.card}>
         <img src={coast} alt="coast" className={styles.image}></img>
-        <h3>Lorem ipsum</h3>
-        <p>Est Venenatis</p>
+        <h3>Membership</h3>
       </div>
       <div className={styles.card}>
         <img
@@ -27,8 +25,7 @@ function ContentSetion() {
           alt="flowers and mountain"
           className={styles.image}
         ></img>
-        <h3>Lorem ipsum</h3>
-        <p>Est Venenatis</p>
+        <h3>Job Board</h3>
       </div>
     </section>
   );

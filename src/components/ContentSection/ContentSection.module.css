@@ -1,7 +1,7 @@
 .content {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 8rem;
   padding: 2rem;
   flex-wrap: wrap; /* Allow wrapping if needed */
 }
@@ -9,9 +9,9 @@
 .card {
   padding: 1rem;
   text-align: center;
-  width: 200px; /* Fixed width for all cards */
-  height: 200px; /* Fixed height for all cards to make them square */
-  background-color: #909e84;
+  width: 300px; /* Fixed width for all cards */
+  height: 300px; /* Fixed height for all cards to make them square */
+  background-color: #dcbfac;
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically */

@@ -15,20 +15,22 @@
 .heroBanner h1 {
   width: 100%;
   text-align: left;
+  margin-left: 20rem;
+  margin-top: 5rem;
+  font-weight: lighter;
 }
 
 .searchBar {
   display: flex;
   width: 100%;
   max-width: 600px;
-  margin-top: 20rem;
+  margin-top: 8rem;
   max-width: 600px;
   justify-content: center;
 }
 
 .searchBarContainer {
   display: flex;
-
   width: 80%;
   max-width: 600px;
 }
@@ -50,6 +52,16 @@
 
 /* Mobile view styling */
 @media (max-width: 768px) {
+  .heroBanner h1 {
+    margin-left: 0; /* Smaller margin for mobile */
+    font-size: 1.5rem; /* Adjust font size for mobile */
+    text-align: center; /* Center align for small screens */
+    margin-top: 0.5rem; /* Adjust top margin if needed */
+  }
+
+  .searchBar {
+    margin-top: 2rem;
+  }
   .searchBarContainer {
     flex-direction: column; /* Stacks input and button vertically */
   }
