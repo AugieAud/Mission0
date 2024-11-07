@@ -43,8 +43,6 @@ Created a wireframe website for Marketing Association NZ
 
 ![React][React.js]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -59,8 +57,6 @@ npm run dev
 Aud Schnell - auds@missionreadyhq.com
 
 Project Link: [https://github.com/AugieAud/Mission0.git](https://github.com/AugieAud/Mission0.git)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
