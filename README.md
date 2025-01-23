@@ -32,8 +32,8 @@ This project is a responsive landing page prototype for the Marketing Associatio
 1. Clone the repository
 
 ```bash
-git clone https://github.com/AugieAud/Mission0.git
-cd Mission0
+git clone https://github.com/AugieAud/marketing-association-nz.git
+cd marketing-association-nz
 ```
 
 2. Install dependencies
@@ -57,7 +57,7 @@ yarn start
 ## Project Structure
 
 ```
-Mission0/
+marketing-association-nz/
 ├── src/
 │   ├── assets/        # Images and other static files
 │   ├── components/    # React components
@@ -86,13 +86,9 @@ The application is built with a mobile-first approach and includes:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details
 
 ## Acknowledgments
 
-- Marketing Association NZ for the project requirements and wireframes
 - React community for the excellent documentation
 - Mission Ready Advanced Software Development program
 
@@ -100,4 +96,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Aud Schnell - auds@missionreadyhq.com
 
-Project Link: https://github.com/AugieAud/Mission0.git
+Project Link: https://github.com/AugieAud/marketing-association-nz.git
